@@ -1,7 +1,7 @@
 var lat="", lng="", current_loc=""; var flag=-1;
 var tokens = [];
 var flag = -1; var map =""; var directionsDisplay =""; var marker="";
-var source = ""; var destination = "42.345573,-71.098326"; var key = "AIzaSyAFUA0nL7qpmZ3k5VP-Kczu9xKG7OD90EI"; var service = '', photo_flag = '', review_flag = ''; var page_no = 0, next_token='', isIPAPI='', review_flag_yelp='',is_keyword = '', is_loc = '', data_flag='', store_details = '',delete_flag='',clear_flag='';
+var source = ""; var destination = "42.345573,-71.098326"; var key = "YOUR_API_KEY"; var service = '', photo_flag = '', review_flag = ''; var page_no = 0, next_token='', isIPAPI='', review_flag_yelp='',is_keyword = '', is_loc = '', data_flag='', store_details = '',delete_flag='',clear_flag='';
 
 $(document).on('keyup', '#from-address', function(e) { 
     if ($('#from-address').val()){

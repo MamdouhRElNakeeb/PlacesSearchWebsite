@@ -4,13 +4,13 @@ var url = require('url');
 var request = require('request');
 var fs = require('fs');
 var cors = require('cors');
-var key = 'AIzaSyAFUA0nL7qpmZ3k5VP-Kczu9xKG7OD90EI';
+var key = 'YOUR_API_KEY';
 
 var app = express();
 
 const yelp = require('yelp-fusion');
 
-const client = yelp.client('wr0lm6LOMVju-orD_VoPKvZImqzyCloFvi_NsZgbQVMQOSxz-ZfZtMjeqI5YjdgoxvL_mFxCCvIbLHry8VnQYAfgL3YgRYV4EdsziuOh4zH0Wr7cL9IaerE-l9a_WnYx');
+const client = yelp.client('YOUR_YELP_KEY');
  
 app.use(express.static('public'));
 
